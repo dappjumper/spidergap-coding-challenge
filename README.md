@@ -7,13 +7,13 @@ This project was done in about 2 hours and contains the following modules:
 The task at hand was to provide object cloning without any changes to the original object propagating over
 It was solved by providing three functions
 
-- deepClone.simple
+- deepClone.simple  
 	Simple cloning of object containing only primitives. Returns false upon receiving complex objects.  
 
-- deepClone.shallow
+- deepClone.shallow  
 	Cloning using the spread operator for objects that do contain references, but still want first-level primitives cloned without references.  
 
-- deepClone.full
+- deepClone.full  
 	Complete cloning of any complex objects where circular references are caught and set to "[Circular]" instead of looping through each self-reference forever  
 
 ## partnerFinder.js
@@ -26,8 +26,8 @@ Additionally, I expanded it to cache the JSON for faster execution on subsequent
 
 Another big part of this challenge pertained to automated testing of the two modules
 
-- deepClone.test.js
+- deepClone.test.js  
 	Test and assert non-mutibility for the functionality provided  
 
-- partnerFinder.test.js
+- partnerFinder.test.js  
 	Test the edge-cases and sorting of results alphabetically  
