@@ -2,7 +2,7 @@
 
 This project was done in about 2 hours and contains the following modules:
 
-###deepClone.js
+## deepClone.js
 
 The task at hand was to provide object cloning without any changes to the original object propagating over
 It was solved by providing three functions
@@ -16,7 +16,7 @@ It was solved by providing three functions
 - deepClone.full
   Complete cloning of any complex objects where circular references are caught and set to "[Circular]" instead of looping through each self-reference forever
 
-###partnerFinder.js
+## partnerFinder.js
 
 This task involved fetching a JSON document from an external server and using Great Circle calculations to reduce the original JSON to only those partners that had offices in a 100km radius around the specified origin location
 
