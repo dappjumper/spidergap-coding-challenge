@@ -27,7 +27,7 @@ Additionally, I expanded it to cache the JSON for faster execution on subsequent
 Another big part of this challenge pertained to automated testing of the two modules
 
 - deepClone.test.js  
-	Test and assert non-mutibility for the functionality provided  
+	Test and assert non-mutability for the functionality provided  
 
 - partnerFinder.test.js  
 	Test the edge-cases and sorting of results alphabetically  
