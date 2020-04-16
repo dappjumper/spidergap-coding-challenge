@@ -30,4 +30,4 @@ Another big part of this challenge pertained to automated testing of the two mod
 	Test and assert non-mutability for the functionality provided  
 
 - partnerFinder.test.js  
-	Test the edge-cases and sorting of results alphabetically  
+	Test the edge-cases and sorting of results alphabetically 
